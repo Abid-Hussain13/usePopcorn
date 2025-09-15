@@ -53,7 +53,6 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
         const data = await res.json();
         setMovie(data);
         setIsLoading(false);
-        console.log(data);
       }
       getMovieDetails();
     },
