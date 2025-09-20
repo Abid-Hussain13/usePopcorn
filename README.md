@@ -1,12 +1,30 @@
-# React + Vite
+# 🍿 usePopcorn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**usePopcorn** is a React app for movie lovers 🎬.  
+You can search movies via the **OMDb API**, explore their details, rate them, and build your own **watched list** with summaries and stats.  
 
-Currently, two official plugins are available:
+Live here [usePopcorn](https://usepopcorns1.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search movies instantly using the [OMDb API](https://www.omdbapi.com/)  
+- 📖 View detailed movie info (plot, actors, director, genre, IMDb rating, etc.)  
+- ⭐ Rate movies with your own rating system  
+- 🎬 Add movies to your **Watched list**  
+- 📊 See stats: average IMDb rating, average user rating, total runtime  
+- 🗑️ Delete movies from your list  
+- 💾 Persistent data with **localStorage**  
+- ⌨️ Keyboard shortcuts:  
+  - **Enter** → focus on search bar  
+  - **Escape** → close movie details  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (Hooks, custom hooks, components)  
+- **API**: [OMDb API](https://www.omdbapi.com/)  
+- **Storage**: LocalStorage  
+- **Styling**: CSS  
